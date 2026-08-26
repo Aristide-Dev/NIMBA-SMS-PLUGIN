@@ -255,6 +255,26 @@ Http::assertSentCount(1);
 - OpenAPI : `https://developers.nimbasms.com/openapi?lang=fr`
 - [Changelog Nimba SMS](https://developers.nimbasms.com/changelog)
 
+## CI et publication Packagist
+
+Les tests (`analyse`, Pint, coverage de types, Pest) tournent sur chaque push vers `master` et chaque pull request.
+
+Une version Packagist se publie en poussant un tag SemVer. Le workflow `release` relance la matrice de tests, crée la GitHub Release, puis notifie Packagist :
+
+```bash
+git tag v1.0.1
+git push origin v1.0.1
+```
+
+Secrets GitHub à ajouter (`Settings` → `Secrets and variables` → `Actions`) :
+
+| Secret | Valeur |
+| --- | --- |
+| `PACKAGIST_USERNAME` | Votre identifiant Packagist |
+| `PACKAGIST_TOKEN` | Jeton **Safe** depuis [votre profil Packagist](https://packagist.org/profile/) |
+
+Soumettez le dépôt **une première fois** sur [packagist.org/packages/submit](https://packagist.org/packages/submit) avec l’URL `https://github.com/Aristide-Dev/NIMBA-SMS-PLUGIN`. Les tags suivants (`v1.0.1`, …) seront synchronisés automatiquement.
+
 ## Changelog
 
 Voir [CHANGELOG](CHANGELOG.md).
