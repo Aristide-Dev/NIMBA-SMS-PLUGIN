@@ -10,7 +10,7 @@
         "whatsapp",
         "otp"
     ],
-    "homepage": "https://github.com/aristide/nimbasms",
+    "homepage": "https://github.com/Aristide-Dev/NIMBA-SMS-PLUGIN",
     "license": "MIT",
     "authors": [
         {
@@ -90,6 +90,10 @@
         "clear": [
             "@php vendor/bin/testbench package:purge-skeleton --ansi"
         ]
+    },
+    "support": {
+        "issues": "https://github.com/Aristide-Dev/NIMBA-SMS-PLUGIN/issues",
+        "source": "https://github.com/Aristide-Dev/NIMBA-SMS-PLUGIN"
     },
     "extra": {
         "laravel": {

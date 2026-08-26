@@ -10,7 +10,7 @@
     <a href="https://packagist.org/packages/aristide/nimbasms"><img src="https://img.shields.io/packagist/v/aristide/nimbasms.svg?style=flat-square" alt="Packagist"></a>
     <a href="https://packagist.org/packages/aristide/nimbasms"><img src="https://img.shields.io/packagist/php-v/aristide/nimbasms.svg?style=flat-square" alt="PHP from Packagist"></a>
     <a href="https://badge.laravel.cloud/badge/aristide/nimbasms?style=flat"><img src="https://badge.laravel.cloud/badge/aristide/nimbasms?style=flat" alt="Laravel versions"></a>
-    <a href="https://github.com/aristide/nimbasms/actions"><img alt="GitHub Workflow Status (main)" src="https://img.shields.io/github/actions/workflow/status/aristide/nimbasms/tests.yml?branch=main&label=Tests&style=flat-square"></a>
+    <a href="https://github.com/Aristide-Dev/NIMBA-SMS-PLUGIN/actions"><img alt="GitHub Workflow Status (master)" src="https://img.shields.io/github/actions/workflow/status/Aristide-Dev/NIMBA-SMS-PLUGIN/tests.yml?branch=master&label=Tests&style=flat-square"></a>
     <a href="https://packagist.org/packages/aristide/nimbasms"><img src="https://img.shields.io/packagist/dt/aristide/nimbasms.svg?style=flat-square" alt="Total Downloads"></a>
 </p>
 
@@ -269,7 +269,7 @@ Voir [.github/SECURITY.md](.github/SECURITY.md).
 
 ## Credits
 
-- [Aristide](https://github.com/aristide)
+- [Aristide](https://github.com/Aristide-Dev)
 - [All Contributors](../../contributors)
 
 ## License
