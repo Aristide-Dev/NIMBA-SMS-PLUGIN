@@ -15,4 +15,13 @@ abstract class TestCase extends Orchestra
             NimbasmsServiceProvider::class,
         ];
     }
+
+    protected function defineEnvironment($app): void
+    {
+        $app['config']->set('nimbasms.base_url', 'https://api.nimbasms.com/v1');
+        $app['config']->set('nimbasms.service_id', 'service-id');
+        $app['config']->set('nimbasms.secret_token', 'secret-token');
+        $app['config']->set('nimbasms.sender_name', 'Nimba SMS');
+        $app['config']->set('nimbasms.timeout', 20);
+    }
 }

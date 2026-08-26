@@ -1,11 +1,14 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
     "name": "aristide/nimbasms",
-    "description": "",
+    "description": "Client Laravel pour l'API Nimba SMS (SMS, WhatsApp, OTP et ressources associées).",
     "keywords": [
         "laravel",
         "aristide",
-        "nimbasms"
+        "nimbasms",
+        "sms",
+        "whatsapp",
+        "otp"
     ],
     "homepage": "https://github.com/aristide/nimbasms",
     "license": "MIT",
@@ -18,6 +21,7 @@
     ],
     "require": {
         "php": "^8.3",
+        "illuminate/http": "^12.0||^13.0",
         "illuminate/support": "^12.0||^13.0"
     },
     "require-dev": {
