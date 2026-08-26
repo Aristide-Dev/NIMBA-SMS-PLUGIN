@@ -23,7 +23,7 @@
 ## Installation
 
 ```bash
-composer require aristide/nimbasms
+composer require aristide/nimbasms:^1.0
 ```
 
 Publiez le fichier de configuration :

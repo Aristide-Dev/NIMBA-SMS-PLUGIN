@@ -27,7 +27,7 @@ Use this skill when a Laravel application needs to send SMS or WhatsApp messages
 ### 2. Install and configure
 
 ```bash
-composer require aristide/nimbasms
+composer require aristide/nimbasms:^1.0
 php artisan vendor:publish --tag="nimbasms-config"
 ```
 

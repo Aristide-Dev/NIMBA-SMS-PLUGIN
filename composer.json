@@ -103,6 +103,9 @@
             "aliases": {
                 "Nimbasms": "Nimbasms\\Nimbasms\\Facades\\Nimbasms"
             }
+        },
+        "branch-alias": {
+            "dev-master": "1.x-dev"
         }
     },
     "config": {
