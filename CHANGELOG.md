@@ -2,6 +2,10 @@
 
 ## [Unreleased](https://github.com/Aristide-Dev/NIMBA-SMS-PLUGIN/compare/v1.0.0...master)
 
+### Added
+
+- Compatibilité Laravel 11 (`illuminate/http` et `illuminate/support` `^11.0`).
+
 ## [v1.0.0](https://github.com/Aristide-Dev/NIMBA-SMS-PLUGIN/releases/tag/v1.0.0) - 2026-08-26
 
 ### Added

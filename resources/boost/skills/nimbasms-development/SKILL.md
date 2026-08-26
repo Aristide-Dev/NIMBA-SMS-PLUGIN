@@ -20,7 +20,7 @@ Use this skill when a Laravel application needs to send SMS or WhatsApp messages
 
 ### 1. Inspect the Laravel app context
 
-- confirm the app is a Laravel 12/13 project
+- confirm the app is a Laravel 11, 12, or 13 project
 - check whether `NIMBASMS_SERVICE_ID`, `NIMBASMS_SECRET_TOKEN`, and `NIMBASMS_SENDER_NAME` are already set
 - prefer the facade `Nimbasms\Nimbasms\Facades\Nimbasms` at call sites
 

@@ -48,12 +48,11 @@ jobs:
         run: |
           if [ -z "${PACKAGIST_USERNAME}" ] || [ -z "${PACKAGIST_TOKEN}" ]; then
             echo "Add PACKAGIST_USERNAME and PACKAGIST_TOKEN repository secrets."
-            echo "Create a Safe API token at https://packagist.org/profile/"
+            echo "See https://packagist.org/about#how-to-update-packages"
             exit 1
           fi
 
-          curl --fail-with-body -sS -X POST "https://packagist.org/api/update-package" \
-            -H "Accept: application/json" \
+          curl --fail-with-body -sS -X POST \
+            "https://packagist.org/api/update-package?username=${PACKAGIST_USERNAME}&apiToken=${PACKAGIST_TOKEN}" \
             -H "Content-Type: application/json" \
-            -H "Authorization: Bearer ${PACKAGIST_USERNAME}:${PACKAGIST_TOKEN}" \
-            -d "{\"repository\":\"https://github.com/${GITHUB_REPOSITORY}\"}"
+            -d "{\"repository\":{\"url\":\"https://github.com/${GITHUB_REPOSITORY}\"}}"
